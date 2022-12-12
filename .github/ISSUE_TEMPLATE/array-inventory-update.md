@@ -11,7 +11,7 @@ If updated information regarding specific pieces of the array is needed (recorde
 
 **I'm submitting a ...** 
 <!--  (check one with "x") -->
-[ ] new array
+[ ] new array  
 [ ] update to an array
 
 
