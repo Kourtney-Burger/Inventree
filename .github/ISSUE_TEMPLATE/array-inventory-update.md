@@ -15,6 +15,6 @@ If updated information regarding specific pieces of the array is needed (recorde
 [ ] update to an array
 
 
-| Array Name | Condition                                                                                                | Location | Current Contact |
-|------------|----------------------------------------------------------------------------------------------------------|----------|-----------------|
-|            | <!--  (check one with "x") --> [ ] Good [ ] Lost at Sea [ ] Needs Repair [ ] Other (specify issue below) |          |                 |
+| Array Name | Condition  | Location | Current Contact |
+|------------|------------|----------|-----------------|
+|            |            |          |                 |
