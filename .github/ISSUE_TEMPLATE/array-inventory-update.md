@@ -6,7 +6,7 @@ labels: ''
 assignees: ''
 
 ---
-<!-- Switch between 'Write' and 'Preview' tabs above to see how your issue will be formated -->
+<!-- Switch between 'Write' and 'Preview' tabs above to see how your issue will be formatted -->
 
 If updated information regarding specific pieces of the array is needed (recorders, hydrophones, GPS units, or depth sensors), please fill out the associated issue template. 
 
