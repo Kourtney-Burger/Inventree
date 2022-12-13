@@ -8,9 +8,10 @@ assignees: ''
 ---
 If information regarding additional inventory items needs to be updated, please fill out the associated issue template. This includes hydrophones not already associated with an array, recorders, GPS units, depth sensors, computers, and other miscellaneous items.
 
+<!--  Click green 'Submit new issue' button below to activate check boxes and table formats, then edit the rest of the issue by clicking the three dots at the top and selecting edit -->
 <!-- Switch between 'Write' and 'Preview' tabs above to see how your issue will be formatted -->
 
-# **I'm submitting a …** <!--  (check one with an "x" between [_]) -->
+# **I'm submitting a …**
 - [ ] New Array  
 - [ ] Update to Current Array
 
