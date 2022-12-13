@@ -16,21 +16,26 @@ Click green 'Submit new issue' button below to activate check boxes and table fo
 - [ ] New Array  
 - [ ] Update to Current Array
 
-### **Array Information**
-| Array Name* | Condition**  | Location | Current Contact Email |
-|-------------|--------------|----------|-----------------------|
-|             |              |          |                       |    
-  
-<!-- The following two lines could be comments? -->  
-_*If submitting a new array, contact Shannon Rankin (shannon.rankin@noaa.gov) for naming guidelines_  
-_**Condition should be Good, Lost at Sea, Needs Repair, or Other._ 
+## **Array Information**  
+### **Array Name**  
+- <!-- Insert array name here (should be a letter, followed by 2 numbers then _, followed by 4 digit hydrophone model numbers (i.e.9299, for a HTI-92 and HTI-99). If submitting a new array, contact Shannon Rankin (shannon.rankin@noaa.gov) for naming guidelines -->
 
+### **Array Condition**  
+- <!-- Insert condition of array here (chose Good, Lost at Sea, Needs Repair, or Other) -->  
+
+### **Array Current Location and Contact**
+- <!-- Insert current array location ('City, State' or Lab Location (i.e. SFSU, HSU, etc)) -->
+- <!-- Insert name and email of who currently has the array -->
+  
 ### **If 'Needs Repair' or 'Other' was chosen above under 'Condition', explain here:**  
 <!-- Please explain exactly what is wrong with the array and what needs to be done to fix it -->
 - 
 
 ## Hydrophone Information  
-<!-- Fill in this table with all the necessary information regarding the hydrophones connected to the array. Only leave a cell blank if the information is unknown, if it is not applicable put NA. -->
+<!-- Complete the following sections with all the necessary information regarding the hydrophones connected to the array. Only leave a section blank if the information is unknown, if it is not applicable put NA. -->
+
+
+
 | Channel # | Model | Serial # | Distance (m) |
 |:---------:|:-----:|:--------:|:------------:|
 |     1     |       |          |       0      |
