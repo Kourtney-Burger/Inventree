@@ -6,10 +6,10 @@ labels: ''
 assignees: ''
 
 ---
-If information regarding additional inventory items needs to be updated, please fill out the associated issue template. This includes hydrophones not already associated with an array, recorders, GPS units, depth sensors, computers, and other miscelaneous items.
+If information regarding additional inventory items needs to be updated, please fill out the associated issue template. This includes hydrophones not already associated with an array, recorders, GPS units, depth sensors, computers, and other miscellaneous items.
 
 <!-- Switch between 'Write' and 'Preview' tabs above to see how your issue will be formatted -->
-# **I'm submitting a ...** <!--  (check one with "x") -->
+# **I'm submitting a …** <!--  (check one with "x") -->
 [ ] New Array  
 [ ] Update to Current Array
 
@@ -27,7 +27,7 @@ _**Condition should be Good, Lost at Sea, Needs Repair, or Other._
 - 
 
 ## Hydrophone Information  
-<!-- Fill in this table with all the necessary information regarding the hydrophones connected to the array. Only leave a cell blank if the information is unknown, if it is unapplicalbe put NA. -->
+<!-- Fill in this table with all the necessary information regarding the hydrophones connected to the array. Only leave a cell blank if the information is unknown, if it is not applicable put NA. -->
 | Channel # | Model | Serial # | Distance (m) |
 |:---------:|:-----:|:--------:|:------------:|
 |     1     |       |          |       0      |
