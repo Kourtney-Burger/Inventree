@@ -11,8 +11,8 @@ If information regarding additional inventory items needs to be updated, please 
 <!-- Switch between 'Write' and 'Preview' tabs above to see how your issue will be formatted -->
 
 # **I'm submitting a …** <!--  (check one with an "x" between [_]) -->
-[ ] New Array  
-[ ] Update to Current Array
+- [ ] New Array  
+- [ ] Update to Current Array
 
 ### **Array Information**
 | Array Name* | Condition**  | Location | Current Contact Email |
