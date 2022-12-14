@@ -6,7 +6,7 @@ labels: ''
 assignees: ''
 
 ---
-Click green 'Submit new issue' button below to activate check boxes and table formats, then edit the rest of the issue by clicking the three dots at the top and selecting edit  <!-- this was originally a comment, but if someone clicks the green button prematurely, they will lose the next step to edit -->
+Click green 'Submit new issue' button below to activate issue check boxes, then edit the rest of the issue by clicking the three dots at the top and selecting edit  <!-- this was originally a comment, but if someone clicks the green button prematurely, they will lose the next step to edit -->
 
 If information regarding additional inventory items needs to be updated, please fill out the associated issue template. This includes hydrophones not already associated with an array, recorders, GPS units, depth sensors, computers, and other miscellaneous items.
 
