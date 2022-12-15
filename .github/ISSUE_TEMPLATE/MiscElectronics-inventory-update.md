@@ -2,8 +2,8 @@
 name: Miscellaneous Electronics Inventory Update
 about: 'Fill out this template with changes to be made regarding miscellaneous electronics. '
 title: Miscellaneous Electronics Inventory Update
-labels: ''
-assignees: ''
+labels: inventory update
+assignees: Kourtney-Burger
 
 ---
 
@@ -17,6 +17,9 @@ If information regarding entire arrays needs to be updated, please fill out the 
 - [ ] New Miscellaneous Electronic  
 - [ ] Update to Current Miscellaneous Electronic
 
+## Device Information
+<!-- Please include any relevant information related to this device, including; item name, condition (good, needs repair, lost at sea, other), make/model, serial number, CD number, current location, current contact-->
+-  
 
 ## Any Additional Information
 <!-- Please explain any additional information/details related to the miscellaneous electronic -->  
