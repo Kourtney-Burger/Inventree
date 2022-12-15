@@ -27,7 +27,7 @@ If information regarding entire arrays needs to be updated, please fill out the 
 -   
 
 ### **Sensor Condition**  
-<!-- Insert condition of sensor here (chose Good, Lost at Sea, or Other) -->  
+<!-- Insert condition of sensor here (chose Good, Lost at Sea,  or Other) -->  
 - 
 
 ### **Sensor Current Location and Contact**   
