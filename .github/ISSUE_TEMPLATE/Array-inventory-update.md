@@ -1,12 +1,13 @@
 ---
 name: Array Inventory Update
 about: 'Fill out this template with changes to be made regarding arrays. '
-title: 'Array Inventory Update'
+title: Array Inventory Update
 labels: ''
-assignees: ''
+assignees: Kourtney-Burger
 
 ---
-Click green 'Submit new issue' button below to activate issue check boxes, then edit the rest of the issue by clicking the three dots at the top and selecting edit  <!-- this was originally a comment, but if someone clicks the green button prematurely, they will lose the next step to edit -->
+
+Click green 'Submit new issue' button below to activate issue check boxes. Select one of the check boxes then edit the issue by clicking the three dots at the top, select edit, and fill in the form following the directions for each question.   
 
 If information regarding additional inventory items needs to be updated, please fill out the associated issue template. This includes hydrophones not already associated with an array, recorders, GPS units, depth sensors, computers, and other miscellaneous items.
 
@@ -18,7 +19,7 @@ If information regarding additional inventory items needs to be updated, please 
 
 ## **Array Information**  
 ### **Array Name**  
-<!-- Insert array name here (should be a letter, followed by 2 numbers then _, followed by 4 digit hydrophone model numbers (i.e.9299, for a HTI-92 and HTI-99). If submitting a new array, contact Shannon Rankin (shannon.rankin@noaa.gov) for naming guidelines -->
+<!-- Insert array name here (should be a letter, followed by 2 numbers then _, followed by 4 digit hydrophone model numbers (i.e.9299, for a HTI-92 and HTI-99). Example: A02_9299). If submitting a new array, contact Shannon Rankin (shannon.rankin@noaa.gov) for naming guidelines -->
 - 
 
 ### **Array Condition**  
@@ -32,7 +33,7 @@ If information regarding additional inventory items needs to be updated, please 
 - 
   
 ### **If 'Needs Repair' or 'Other' was chosen above under 'Condition', explain here:**  
-<!-- Please explain exactly what is wrong with the array and what needs to be done to fix it -->
+<!-- Please explain exactly what is wrong with the array and what needs to be corrected -->
 - 
 
 ## Hydrophone Information  
@@ -40,7 +41,7 @@ If information regarding additional inventory items needs to be updated, please 
 
 <!-- Model should be HTI-96-MIN, HTI-92-WB, or HTI-99-HF. If you are unsure of the hydrophone model on current arrays, leave blank. Do not leave blank for new arrays. -->
 <!-- Serial numbers are listed on the side of the hydrophones in white numbers -->
-<!-- Distance (m) refers to the distance between that hydrophone and the first one. -->
+<!-- Distance (m) refers to the distance between that hydrophone and the Channel 1 hydrophone -->
 
 ### **Channel 1 Hydrophone**
 - **Model:** 

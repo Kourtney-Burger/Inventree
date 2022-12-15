@@ -1,11 +1,12 @@
 ---
 name: GPS Device Inventory Update
 about: 'Fill out this template with changes to be made regarding GPS devices. '
-title: 'GPS Device Inventory Update'
+title: GPS Device Inventory Update
 labels: ''
 assignees: ''
 
 ---
+
 Click green 'Submit new issue' button below to activate issue check boxes, then edit the rest of the issue by clicking the three dots at the top and selecting edit  
 
 If information regarding entire arrays needs to be updated, please fill out the associated issue template.
