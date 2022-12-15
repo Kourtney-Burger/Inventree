@@ -2,7 +2,7 @@
 name: Array Inventory Update
 about: 'Fill out this template with changes to be made regarding arrays. '
 title: Array Inventory Update
-labels: 'inventory update'
+labels: inventory update
 assignees: Kourtney-Burger
 
 ---
