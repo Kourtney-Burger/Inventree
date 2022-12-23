@@ -36,33 +36,31 @@ If information regarding additional inventory items needs to be updated, please 
 <!-- Please explain exactly what is wrong with the array and what needs to be corrected -->
 - 
 
-## Hydrophone Information  
-<!-- Complete the following sections with all the necessary information regarding the hydrophones connected to the array. Only leave a section blank if the information is unknown, if it is not applicable put NA. -->
+## **For New Arrays Only**
+<details><summary> Hydrophone Information </summary> 
 
-<!-- Model should be HTI-96-MIN, HTI-92-WB, or HTI-99-HF. If you are unsure of the hydrophone model on current arrays, leave blank. Do not leave blank for new arrays. -->
+  <!-- Complete the following sections with all the necessary information regarding the hydrophones connected to the array. Only leave a section blank if the information is unknown, if it is not applicable put NA. -->
+
+<!-- Model should be HTI-96-MIN, HTI-92-WB, or HTI-99-HF. Do not leave blank for new arrays. -->
 <!-- Serial numbers are listed on the side of the hydrophones in white numbers -->
 <!-- Distance (m) refers to the distance between that hydrophone and the Channel 1 hydrophone -->
 
-### **Channel 1 Hydrophone**
+#### **Channel 1 Hydrophone**
 - **Model:** 
 - **Serial #:** 
 - **Distance (m):** 
 
-### **Channel 2 Hydrophone**
+#### **Channel 2 Hydrophone**
 - **Model:** 
 - **Serial #:** 
 - **Distance (m):** 
 
-### **Channel 3 Hydrophone**
+#### **Channel 3 Hydrophone**
 - **Model:** 
 - **Serial #:** 
 - **Distance (m):** 
-
-### **Channel 4 Hydrophone**
-- **Model:** 
-- **Serial #:** 
-- **Distance (m):**  
-
+</details>
+  
 ## Any Additional Information
 <!-- Please explain any additional information/details related to the array and associated parts -->  
 - 
