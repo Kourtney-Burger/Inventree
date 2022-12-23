@@ -34,17 +34,23 @@ If information regarding entire arrays needs to be updated, please fill out the 
 <!-- Please explain exactly what is wrong with the recorder and what needs to be corrected -->
 - 
 
-### **SD Card Type and Max Sampling Rate**
-<!-- Insert size/type of SD card the recorder uses-->
-- 
-<!-- Insert max sampling rate (kHz)-->
-- 
-
 ### **Recorder Current Location and Contact**
 <!-- Insert current recorder location ('City, State' or Lab Location (i.e. SFSU, HSU, etc)) -->
 - 
 <!-- Insert name and email of who currently has the recorder -->
 - 
+
+## **For New Recorders Only**
+<details><summary> Recorder Information </summary>    
+
+  #### **SD Card Type**    
+  <!-- Insert size/type of SD card the recorder uses-->  
+  -  
+  
+  #### **Max Sampling Rate**  
+  <!-- Insert max sampling rate (kHz)-->  
+  -   
+</details>
 
 ## Any Additional Information
 <!-- Please explain any additional information/details related to the recorder -->  
