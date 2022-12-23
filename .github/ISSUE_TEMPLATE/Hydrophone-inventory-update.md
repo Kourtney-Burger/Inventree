@@ -22,11 +22,11 @@ If information regarding entire arrays needs to be updated, please fill out the 
 <!-- Serial number is a 6 digit number written in white letters on the side of the hydrophone -->  
 - 
 
-### ** Hydrophone Model **
+### **Hydrophone Model**
 <!-- Model should be HTI-96-MIN, HTI-92-WB, or HTI-99-HF. If you are unsure of the hydrophone model for current hydrophones, leave blank. Do not leave blank for new hydrophones. -->  
 -  
 
-### ** Current Array Name **
+### **Current Array Name**
 <!-- Insert array name that the hydrophone is currently attached to. If it is not connected to an array, put NA -->  
 -  
 
