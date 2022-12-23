@@ -28,7 +28,7 @@ assignees: Kourtney-Burger
 - 
 <!-- Insert name and email of who currently has this item -->
 - 
-t
+
 ### **Location and Contact Where Item Is Being Moved To**
 <!-- Insert new location ('City, State' or Lab Location (i.e. SFSU, HSU, etc)) -->
 - 
