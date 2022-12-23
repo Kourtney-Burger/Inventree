@@ -44,12 +44,18 @@ If information regarding entire arrays needs to be updated, please fill out the 
 <!-- Insert name and email of who currently has the hydrophone -->
 - 
 
-## **For new hydrophones only (leave blank for current hydrophones)**
-### **Hydrophone Sensitivity and Current mA**
-<!-- Insert the hydrophone sensitivity in dB re: 1V/uPa.  -->
--  
-<!-- Insert current mA-->
-- 
+## **For new hydrophones only**
+<details>
+  <summary> Hydrophone Information </summary>   
+  
+  #### **Hydrophone Sensitivity**  
+  <!-- Insert the hydrophone sensitivity in dB re: 1V/uPa-->  
+  - 
+  
+  #### **Current mA**  
+  <!-- Insert current mA-->  
+  - 
+</details>
 
 ## Any Additional Information
 <!-- Please explain any additional information/details related to the hydrophone. Add links to settings and calibration docs as needed -->  
