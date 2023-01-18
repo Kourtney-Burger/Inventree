@@ -10,7 +10,7 @@ body:
       value: |
         If information regarding additional inventory items needs to be updated, please fill out the associated issue template. This includes hydrophones not already associated with an array, recorders, GPS units, depth sensors, computers, and other miscellaneous items.
   - type: dropdown
-    id: I'm-submitting
+    id: submitting
     attributes:
       label: I'm submitting a ...
       options:
