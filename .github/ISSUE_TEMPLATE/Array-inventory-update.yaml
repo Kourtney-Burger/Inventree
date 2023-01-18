@@ -21,7 +21,25 @@ body:
     attributes:
       label: Array Name
       description: Insert array name here. This should be a letter, followed by 2 numbers then _, followed by 4 digit hydrophone model numbers (i.e.9299, for a HTI-92 and HTI-99). If submitting a new array, contact Shannon Rankin (shannon.rankin@noaa.gov) for naming guidelines
-      placeholder: A02_9299
+      placeholder: ex. A02_9299
+    validations:
+      required: true
+  - type: dropdown
+    id: array-name
+    attributes:
+      label: Array Condition
+      options:
+        - Good
+        - Lost at sea
+        - Needs repair
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: array-location
+    attributes:
+      label: Array Current Location and Contact
+      placeholder: ex. PIFSC, email@example.com
     validations:
       required: true
   - type: input
