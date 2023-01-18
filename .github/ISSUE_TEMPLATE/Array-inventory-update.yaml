@@ -24,6 +24,13 @@ body:
       placeholder: ex. A02_9299
     validations:
       required: true
+  - type: input
+    id: array-location
+    attributes:
+      label: Array Current Location and Contact
+      placeholder: ex. PIFSC, email@example.com
+    validations:
+      required: true
   - type: dropdown
     id: array-condition
     attributes:
@@ -36,12 +43,21 @@ body:
     validations:
       required: true
   - type: input
-    id: array-location
+    id: whats-wrong
     attributes:
-      label: Array Current Location and Contact
-      placeholder: ex. PIFSC, email@example.com
-    validations:
-      required: true
+      label: What's Wrong With The Array?
+      description: If 'Needs Repair' or 'Other' was chosen above under 'Condition', explain here
+      placeholder: ex. needs updated hydrophone mounts
+  - type: input
+    id: for-new-arrays
+    attributes: 
+      label: For New Arrays Only
+      description: List the following information regarding the hydrophones only if you are submitting a new array; hydrophone model, serial number, and distance for all applicable channels
+  - type: input
+    id: additional-info
+    attributes: 
+      label: Any Additional Information
+      description: Explain any additional information/details related to the array and associated parts
   - type: input
     id: contact
     attributes:
@@ -50,3 +66,7 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
+  - type: markdown
+    attributes: 
+      value: |
+        Contact Kourtney Burger (kourtney.burger@noaa.gov) with any questions/comments related to this form or inventory
