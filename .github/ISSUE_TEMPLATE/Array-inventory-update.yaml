@@ -15,4 +15,20 @@ body:
       label: I'm submitting a ...
       options:
         - New array
-        - Update to a current array
+        - Update to a current array        
+  - type: input
+    id: array-name
+    attributes:
+      label: Array Name
+      description: Insert array name here. This should be a letter, followed by 2 numbers then _, followed by 4 digit hydrophone model numbers (i.e.9299, for a HTI-92 and HTI-99). If submitting a new array, contact Shannon Rankin (shannon.rankin@noaa.gov) for naming guidelines
+      placeholder: A02_9299
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
