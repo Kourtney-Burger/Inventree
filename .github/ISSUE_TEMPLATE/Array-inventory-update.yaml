@@ -1,0 +1,18 @@
+name: Array Inventory Update
+description: Fill out this template with changes to be made regarding arrays.
+title: "Array Inventory Update:"
+labels: ["inventory update"]
+assignees:
+  - Kourtney-Burger
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If information regarding additional inventory items needs to be updated, please fill out the associated issue template. This includes hydrophones not already associated with an array, recorders, GPS units, depth sensors, computers, and other miscellaneous items.
+  - type: dropdown
+    id: I'm-submitting
+    attributes:
+      label: I'm submitting a ...
+      options:
+        - New array
+        - Update to a current array
