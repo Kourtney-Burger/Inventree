@@ -10,8 +10,8 @@ body:
     attributes:
       label: Do you need a shipping label for this item?
       options:
-        - Yes
-        - No        
+        - "Yes"
+        - "No"        
   - type: input
     id: item-name
     attributes:
