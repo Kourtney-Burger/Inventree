@@ -29,16 +29,19 @@ body:
     attributes:
       label: Computer Make/Model
       placeholder: Dell Precision 5570
+    validations:
       required: false
   - type: input
     id: computer-serialnumber
     attributes:
       label: Computer Serial Number
+    validations:
       required: false
   - type: input
     id: computer-CDnumber
     attributes:
       label: Computer CD Number
+    validations:
       required: false
   - type: input
     id: computer-location
@@ -63,12 +66,14 @@ body:
       label: What's Wrong With The Computer?
       description: If 'Needs Repair' or 'Other' was chosen above under 'Condition', explain here
       placeholder: ex. needs new battery
+    validations:
       required: false
   - type: input
     id: additional-info
     attributes: 
       label: Any Additional Information
       description: Explain any additional information/details related to the computer
+    validations:
       required: false
   - type: input
     id: contact
