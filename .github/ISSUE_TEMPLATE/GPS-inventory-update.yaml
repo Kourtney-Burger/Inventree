@@ -20,7 +20,7 @@ body:
     id: GPS-name
     attributes:
       label: GPS Name
-      placeholder: SO-305
+      placeholder: "SO-305"
     validations:
       required: true
   - type: input
