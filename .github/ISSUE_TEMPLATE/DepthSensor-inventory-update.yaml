@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        If submitting a new depth sensor to the inventory, fill in all of the following information. If submitting an update to a current depth, only fill in the information marked with *
+        If submitting a new depth sensor to the inventory, fill in all of the following information. If submitting an update to a current depth sensor, only fill in the information marked with *
   - type: dropdown
     id: submitting
     attributes:
