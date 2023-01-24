@@ -1,0 +1,60 @@
+name: Item Location Update
+description: Fill out this template with changes to be made regarding item locations.
+title: "Item Location Update:"
+labels: ["inventory update"]
+assignees:
+  - Kourtney-Burger
+body:
+  - type: dropdown
+    id: submitting
+    attributes:
+      label: Do you need a shipping label for this item?
+      options:
+        - Yes
+        - No        
+  - type: input
+    id: item-name
+    attributes:
+      label: Item Name
+      description: Array, hydrophone, recorder, depth sensor, GPS, computer, etc.
+    validations:
+      required: true
+  - type: input
+    id: item-ID-serialnumber
+    attributes:
+      label: Item ID/Serial Number
+    validations:
+      required: true
+  - type: input
+    id: item-current-location
+    attributes:
+      label: Item Current Location and Contact
+      placeholder: ex. PIFSC, email@example.com
+    validations:
+      required: true      
+  - type: input
+    id: item-new-location
+    attributes:
+      label: New Location and Contact
+      placeholder: ex. PIFSC, email@example.com
+    validations:
+      required: true      
+  - type: input
+    id: additional-info
+    attributes: 
+      label: Any Additional Information
+      description: Explain any additional information/details related to the item location
+    validations:
+      required: false
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: True
+  - type: markdown
+    attributes: 
+      value: |
+        Contact Kourtney Burger (kourtney.burger@noaa.gov) with any questions/comments related to this form or inventory
