@@ -27,7 +27,7 @@ body:
     id: GPS-id
     attributes:
       label: GPS ID
-      placeholder: 3380305
+      placeholder: "3380305"
     validations:
       required: false
   - type: input
