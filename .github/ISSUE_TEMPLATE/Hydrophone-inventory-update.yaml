@@ -1,0 +1,97 @@
+name: Hydrophone Inventory Update
+description: Fill out this template with changes to be made regarding hydrophones.
+title: "Hydrophone Inventory Update:"
+labels: ["inventory update"]
+assignees:
+  - Kourtney-Burger
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If submitting a new hydrophone to the inventory, fill in all of the following information. If submitting an update to a current hydrophone, only fill in the information marked with *
+  - type: dropdown
+    id: submitting
+    attributes:
+      label: I'm submitting a ...
+      options:
+        - New hydrophone
+        - Update to a current hydrophone        
+  - type: input
+    id: Hydrophone-serialnumber
+    attributes:
+      label: Hydrophone Serial Number
+      placeholder: "856040"
+    validations:
+      required: true
+  - type: input
+    id: Hydrophone-model
+    attributes:
+      label: Hydrophone Model
+      placeholder: HTI-96-MIN
+    validations:
+      required: false
+  - type: input
+    id: Hydrophone-array
+    attributes:
+      label: Current Array Name
+      placeholder: A02_9299
+    validations:
+      required: true
+  - type: input
+    id: Hydrophone-sensitivity
+    attributes:
+      label: Hydrophone Sensitivity
+      placeholder: "-155.2"
+    validations:
+      required: false
+  - type: input
+    id: Hydrophone-currentmA
+    attributes:
+      label: Hydrophone Current mA
+      placeholder: "1.14"
+    validations:
+      required: false
+  - type: input
+    id: Hydrophone-location
+    attributes:
+      label: Hydrophone Current Location and Contact
+      placeholder: ex. PIFSC, email@example.com
+    validations:
+      required: true      
+  - type: dropdown
+    id: Hydrophone-condition
+    attributes:
+      label: Hydrophone Condition
+      options:
+        - Good
+        - Lost at sea
+        - Needs repair
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: whats-wrong
+    attributes:
+      label: What's Wrong With The Hydrophone?
+      description: If 'Needs Repair' or 'Other' was chosen above under 'Condition', explain here
+    validations:
+      required: false
+  - type: input
+    id: additional-info
+    attributes: 
+      label: Any Additional Information
+      description: Explain any additional information/details related to the hydrophone
+    validations:
+      required: false
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: True
+  - type: markdown
+    attributes: 
+      value: |
+        Contact Kourtney Burger (kourtney.burger@noaa.gov) with any questions/comments related to this form or inventory
