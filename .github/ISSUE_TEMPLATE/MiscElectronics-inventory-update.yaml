@@ -1,0 +1,47 @@
+name: Miscellaneous Electronics Inventory Update
+description: Fill out this template with changes to be made regarding miscellaneous electronics.
+title: "Miscellaneous Electronics Update:"
+labels: ["inventory update"]
+assignees:
+  - Kourtney-Burger
+body:
+  - type: dropdown
+    id: submitting
+    attributes:
+      label: I'm submitting a ...
+      options:
+        - New miscellaneous electronics
+        - Update to a current miscellaneous electronics        
+  - type: input
+    id: miscElectronic-info
+    attributes:
+      label: Device Information
+      description: Please include any relevant information related to this device, including; item name, condition (good, needs repair, lost at sea, other), make/model, serial number, CD number
+    validations:
+      required: true
+  - type: input
+    id: device-location
+    attributes:
+      label: Device Current Location and Contact
+      placeholder: ex. PIFSC, email@example.com
+    validations:
+      required: true      
+  - type: input
+    id: additional-info
+    attributes: 
+      label: Any Additional Information
+      description: Explain any additional information/details related to the device
+    validations:
+      required: false
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: True
+  - type: markdown
+    attributes: 
+      value: |
+        Contact Kourtney Burger (kourtney.burger@noaa.gov) with any questions/comments related to this form or inventory
