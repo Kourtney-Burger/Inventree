@@ -1,0 +1,93 @@
+name: Recorder Inventory Update
+description: Fill out this template with changes to be made regarding recorders.
+title: "Recorder Inventory Update:"
+labels: ["inventory update"]
+assignees:
+  - Kourtney-Burger
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If submitting a new recorder to the inventory, fill in all of the following information. If submitting an update to a current recorder, only fill in the information marked with *
+  - type: dropdown
+    id: submitting
+    attributes:
+      label: I'm submitting a ...
+      options:
+        - New recorder
+        - Update to a current recorder        
+  - type: input
+    id: recorder-serialNumber
+    attributes:
+      label: Instrument ID (Serial Number)
+      description: Four digit instrument ID (or last four digits of 10 digit serial number)
+      placeholder: 5990
+    validations:
+      required: true
+  - type: input
+    id: recorder-type
+    attributes:
+      label: Recorder Type
+      placeholder: SM3M, ST640, ST300HF, ST300STD, ST4300STD, ST4300HF
+    validations:
+      required: false
+  - type: input
+    id: recorder-SDcard
+    attributes:
+      label: SD Card Type
+      description: List the size/type of SD card the recorder uses
+      placeholder: ex. 256 GB
+    validations: 
+      required: false
+  - type: input
+    id: recorder-samplingrate
+    attributes:
+      label: Max Sampling Rate
+      description: List the maximum sampling rate (kHz)
+      placeholder: ex. 384kHz
+    validations: 
+      required: false
+  - type: dropdown
+    id: recorder-condition
+    attributes:
+      label: Recorder Condition
+      options:
+        - Good
+        - Needs repair
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: whats-wrong
+    attributes:
+      label: What's Wrong With The Recorder?
+      description: If 'Needs Repair' or 'Other' was chosen above under 'Condition', explain here
+      placeholder: ex. begins duty cycle recordings near end of battery life
+    validations:
+      required: false
+  - type: input
+    id: recorder-location
+    attributes:
+      label: Recorder Current Location and Contact
+      placeholder: ex. PIFSC, email@example.com
+    validations:
+      required: true      
+  - type: input
+    id: additional-info
+    attributes: 
+      label: Any Additional Information
+      description: Explain any additional information/details related to the recorder
+    validations:
+      required: false
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: True
+  - type: markdown
+    attributes: 
+      value: |
+        Contact Kourtney Burger (kourtney.burger@noaa.gov) with any questions/comments related to this form or inventory
