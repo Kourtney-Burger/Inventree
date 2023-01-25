@@ -21,7 +21,7 @@ body:
     attributes:
       label: Instrument ID (Serial Number)
       description: Four digit instrument ID (or last four digits of 10 digit serial number)
-      placeholder: 5990
+      placeholder: "5990"
     validations:
       required: true
   - type: input
